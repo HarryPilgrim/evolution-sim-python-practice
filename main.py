@@ -2,7 +2,7 @@ from world import World
 from stats_tracker import StatsTracker
 import matplotlib.pyplot as plt
 stats = StatsTracker()
-world = World(100, 100, num_plants=100, num_prey=14)
+world = World(100, 100, num_plants=100, num_prey=26)
 
 for _ in range(200):  # Run for 200 steps
     world.update()

@@ -18,7 +18,8 @@ class Prey:
         "energy_gain": 6,
         "energy_loss": 0.2,
         "reproduce_energy": 15,
-        "speed": 0.5
+        "speed": 0.5,
+        "vision": 30  # units, adjustable
     })
 
     def move_toward(self, target_x, target_y, step_size=None):
@@ -40,7 +41,8 @@ class Predator:
         "energy_gain": 10,
         "energy_loss": 0.3,
         "reproduce_energy": 20,
-        "speed": 0.6
+        "speed": 0.6,
+        "vision": 30  # units, adjustable
     })
 
     def move_toward(self, target_x, target_y, step_size=None):
